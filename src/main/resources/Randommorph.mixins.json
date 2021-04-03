@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.kunmc.lab.randommorph.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "TestMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
