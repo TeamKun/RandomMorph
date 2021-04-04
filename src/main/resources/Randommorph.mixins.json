@@ -4,7 +4,7 @@
   "package": "net.kunmc.lab.randommorph.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "TestMixin"
+    "PlayerEntityMixin"
   ],
   "client": [
   ],

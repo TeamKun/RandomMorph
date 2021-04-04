@@ -8,6 +8,24 @@ import java.util.Map;
 
 public class RandomMorphConfig implements Config {
 
+    @Comment(value = "エンドラのブロック破壊")
+    public boolean enderDragonBlockBreak = true;
+
+    @Comment(value = "ラヴェジャーのブロック破壊")
+    public boolean ravagerBlockBreak = true;
+
+    @Comment(value = "エンドラの体当たりダメージ")
+    public double enderDragonAttackDamage = 10;
+
+    @Comment(value = "ラヴェジャーの体当たりダメージ")
+    public double ravagerAttackDamage = 5;
+
+    @Comment(value = "エンドラの体当たりノックバック倍率")
+    public double enderDragonAttackKnockBack = 1.0;
+
+    @Comment(value = "ラヴェジャーの体当たりノックバック倍率")
+    public double ravagerAttackKnockBack = 0.3;
+
     @Comment(value = "Tier Map")
     public Map<String, Integer> tierMap = new HashMap<String, Integer>() {
         {
